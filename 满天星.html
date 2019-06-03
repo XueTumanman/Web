@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <!-- 外部加载 -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- 轨迹函数 -->
+    <script type="text/javascript" src="js/track.js"></script>
+
+
+
+</head>
+
+<body>
+    <!-- 控制台 -->
+    <div id="cmd">
+
+        <form name="form1" action="" name='track' method="POST">
+
+            <table>
+                <tr>
+                    <td> 输入颜色：</td>
+                    <td><input type="text" name="color" id="color" placeholder="#FFFFFF"></td>
+                </tr>
+                <tr>
+                    <td>选择轨迹：</td>
+                    <td>
+                        <select name="startrack" id="startrack">
+                            <option value="rotate">旋转</option>
+                            <option value="up">上升</option>
+                        </select>
+                    </td>
+                </tr>
+            </table>
+
+            <input type="button" name="name" value="生成" onclick="getvalue()" >
+
+            <!-- <button type="submit" value="">生成</button> -->
+            <button type="submit" value="">清空</button>
+
+        </form>
+
+    </div>
+
+    <!-- 展示 -->
+    <div id="css_track"></div>
+
+    <!-- <script type="text/javascript">
+    </script> -->
+
+    <!-- 轨迹函数 -->
+    <!-- <script type="text/javascript" src="js/track.js"></script> -->
+
+</body>
+
+</html>

@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-size: 100% 100%;
+}
+
+body {
+    background-image: url('../img/5.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* 控制台css */
+#cmd {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+    text-shadow: 0 0 5px red;
+}
+
+#cmd button,
+select,
+input {
+    margin: 5px 0px;
+    display: block;
+    width: 100%;
+    text-align-last: center;
+}
+
+#css_track {
+    /* position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 2px;
+    height: 2px;
+    background: transparent; */
+
+}
+
+@keyframes rotate {
+    from {
+        /* transform: translateY(0px); */
+        transform: rotatez(0deg);
+    }
+
+    to {
+        /* transform: translateY(1000px); */
+        transform: rotatez(720deg);
+    }
+}
+
+@keyframes up {
+    from {
+        /* transform: translateY(0px); */
+        transform: translateY(-1000px);
+    }
+
+    to {
+        /* transform: translateY(1000px); */
+        transform: translateY(1000px);
+    }
+}
